@@ -11,7 +11,6 @@ export async function GetPineconeIndex(client: PineconeClient) {
 
     const vectorStore = await PineconeStore.fromExistingIndex(embeddings, {
       pineconeIndex: index,
-      namespace: env.PINECONE_NAME_SPACE,
       textKey: "text",
     })
 

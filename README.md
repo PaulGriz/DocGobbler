@@ -62,10 +62,6 @@ Ready to get started building your own document assistant? Check out the code in
 - Reveal and Copy the `Value`
   - Enter as `PINECONE_API_KEY`  in .env
 
-**In the `.env`**
-
-- Set `PINECONE_NAME_SPACE` as a name to categorize your data in the Pinecone admin pannel
-
 ## 🖥️ Project Install & Document Ingest
 
 #### 1.) Clone or Fork Repository

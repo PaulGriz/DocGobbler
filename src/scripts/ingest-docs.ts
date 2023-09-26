@@ -69,7 +69,6 @@ export async function RunIngest() {
 
     await PineconeStore.fromDocuments(docs, embeddings, {
       pineconeIndex: index,
-      namespace: env.PINECONE_NAME_SPACE,
       textKey: "text",
     })
 
