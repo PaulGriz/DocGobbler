@@ -8,8 +8,14 @@
     "Mr. Doc Gobbler"
   </strong>
 </p>
-
 Welcome to DocGobbler! This project allows you to quickly build out a customizable chatbot trained on your files. Just ingest your documents, edit the `src/configs` files, and deploy to Vercel!
+
+####  Examples:
+
+- Turkey Facts: https://docgobbler.vercel.app/
+- Tax Advice from IRS 2022 Publications: TODO ADD LINK
+
+
 
 #### Key Features of DocGobbler:
 
@@ -70,10 +76,10 @@ Ready to get started building your own document assistant? Check out the code in
 
 ## 🖥️ Project Install & Document Ingest
 
-#### 1.) Clone Repository
+#### 1.) Clone or Fork Repository
 
 ```shell
-git clone [TODO: Add Repo Link]
+git clone https://github.com/PaulGriz/DocGobbler
 ```
 
 #### 2.) Install Dependancies
