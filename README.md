@@ -1,13 +1,9 @@
 # DocGobbler - A Customizable Retrieval Chatbot
 
 <p align="center" width="100%">
-  <img src="./public/gobblers/gobbler_1.jpg" alt="Mr. Doc Gobbler" width="50%" />
+  <img src="./public/images/Heading_Image.png" alt="Mr. Doc Gobbler" width="100%" />
 </p>
-<p align="center">
-  <strong>
-    "Mr. Doc Gobbler"
-  </strong>
-</p>
+
 Welcome to DocGobbler! This project allows you to quickly build out a customizable chatbot trained on your files. Just ingest your documents, edit the `src/configs` files, and deploy to Vercel!
 
 #### Examples
