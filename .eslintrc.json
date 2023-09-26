@@ -1,0 +1,7 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Needed for React Markdown
+    "react/no-children-prop": "off"
+  }
+}
