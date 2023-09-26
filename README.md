@@ -3,8 +3,7 @@
 <p align="center" width="100%">
   <img src="./public/images/Heading_Image.png" alt="Mr. Doc Gobbler" width="100%" />
 </p>
-
-Welcome to DocGobbler! This project allows you to quickly build out a customizable chatbot trained on your files. Just ingest your documents, edit the `src/configs` files, and deploy to Vercel!
+Welcome to DocGobbler! This project allows you to quickly build out a customizable chatbot trained on your files. Just ingest your documents, edit the `src/configs` files, and deploy! 100% free and open to use 
 
 #### Examples
 
@@ -18,8 +17,6 @@ Welcome to DocGobbler! This project allows you to quickly build out a customizab
 - ✅ View Context Sources & Metadata
 - ✅ Easy to Customize the Entire Project via the `src/configs` Folder
 - ✅ Light/Dark Mode Theme Switching
-
-Ready to get started building your own document assistant? Check out the code in this repo!
 
 ## 📚 Tech Stack
 
@@ -94,9 +91,9 @@ pnpm install
 
 Use the `src/configs/` folder to make this project your own!
 
-- `ai-configs.ts`: For Langchain prompts
+- `ai-configs.ts`: For Model Parameters, Ingest Settings, and Prompts
 
-- `ui-configs.ts`: For Project Titles and Inital UI Messages
+- `ui-configs.ts`: For Project Titles, UI Messages, Placeholders, and More
 
 - `metadata.ts`: For the Next.js App's Metadata
 
