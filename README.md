@@ -10,24 +10,20 @@
 </p>
 Welcome to DocGobbler! This project allows you to quickly build out a customizable chatbot trained on your files. Just ingest your documents, edit the `src/configs` files, and deploy to Vercel!
 
-####  Examples:
+#### Examples
 
-- Turkey Facts: https://docgobbler.vercel.app/
-- Tax Advice from IRS 2022 Publications: TODO ADD LINK
+- Turkey Facts: <https://docgobbler.vercel.app/>
+- Tax Advice from IRS 2022 Publications: <https://irs-pub-search.vercel.app/>
 
+#### Key Features of DocGobbler
 
-
-#### Key Features of DocGobbler:
-
-- ✅ Chat with Multiple Documents & File Types 
+- ✅ Chat with Multiple Documents & File Types
 - ✅ API Streaming
 - ✅ View Context Sources & Metadata
 - ✅ Easy to Customize the Entire Project via the `src/configs` Folder
 - ✅ Light/Dark Mode Theme Switching
 
 Ready to get started building your own document assistant? Check out the code in this repo!
-
-
 
 ## 📚 Tech Stack
 
@@ -39,18 +35,16 @@ Ready to get started building your own document assistant? Check out the code in
 - [Tailwind](https://tailwindcss.com/)
 - [Shadcn/ui](https://ui.shadcn.com/)
 
-
-
 ## 🪜 API Setup
 
 #### Prerequisites
 
-1. Copy the .env example file: `cp .env.example .env` 
+1. Copy the .env example file: `cp .env.example .env`
 2. Get an OpenAI API Key - [Link](https://openai.com/)
    - Enter as `OPENAI_API_KEY` in .env
 3. Make a Pinecone Account (free) - [Link](https://www.pinecone.io/)
 
-#### Pinecone Index Setup:
+#### Pinecone Index Setup
 
 **Create a new Index:**
 
@@ -64,15 +58,13 @@ Ready to get started building your own document assistant? Check out the code in
 **On the side panel, Click on "API Keys"**
 
 - Copy the `ENVIRONMENT` location
-  - Enter as `PINECONE_ENVIRONMENT`  in .env 
+  - Enter as `PINECONE_ENVIRONMENT`  in .env
 - Reveal and Copy the `Value`
-  - Enter as `PINECONE_API_KEY`  in .env 
+  - Enter as `PINECONE_API_KEY`  in .env
 
 **In the `.env`**
 
 - Set `PINECONE_NAME_SPACE` as a name to categorize your data in the Pinecone admin pannel
-
-  
 
 ## 🖥️ Project Install & Document Ingest
 
@@ -90,7 +82,7 @@ pnpm install
 
 #### 3.) Copy your Documents into the `public/docs` Directory
 
-- Note: The `public/docs` folder is reccomended because it allows Next.js to easily link to sources files. 
+- Note: The `public/docs` folder is reccomended because it allows Next.js to easily link to sources files.
 
 #### 4.) Run `pnpm run ingest` to chuck and vectorize docs into Pincone Index
 
@@ -100,13 +92,11 @@ pnpm install
 #### 5.) Go to `src/configs/ai-configs.ts` and edit the QA_TEMPLATE
 
 - The `QA_TEMPLATE` is the "System Prompt" for the AI. Customize it to fit your documents or objective for your own goals.
-- The `CONDENSE_TEMPLATE` is not as important, and I'm using the standard prompt from other Langchain projects. 
+- The `CONDENSE_TEMPLATE` is not as important, and I'm using the standard prompt from other Langchain projects.
 
-#### 6.) 🏃‍♂️ Run the Project!
+#### 6.) 🏃‍♂️ Run the Project
 
 - `pnpm run dev`
-
-  
 
 ## 🎨 How to Customize
 
@@ -116,11 +106,9 @@ Use the `src/configs/` folder to make this project your own!
 
 - `ui-configs.ts`: For Project Titles and Inital UI Messages
 
-- `metadata.ts`: For the Next.js App's Metadata 
+- `metadata.ts`: For the Next.js App's Metadata
 
 - `env.ts`: Uses zod to validate env variables. Not needed, just used for basic type/error checking.
-
-  
 
 ## 📋 Commands
 
@@ -132,8 +120,6 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm ingest` | Chucks docs in the `public/docs/` folder and uploads vectors to Pinecone |
 | `pnpm dev`    | Starts the local development server at `localhost:3000`      |
 
-
-
 ## 🚸 Roadmap
 
 - [ ] Add more Langchain file loaders
@@ -144,14 +130,10 @@ All commands are run from the root of the project, from a terminal:
 - [ ] Add a "Prompting Tips" Page
 - [ ] Add User Authentication & Multiple Chat Histories/Sessions
 
-
-
 ## 💬 Questions?
 
 - Reach out to me on Twitter: [@PaulGrizII](https://twitter.com/PaulGrizII)
 - Submit a PR or Feature Request
-
-
 
 ## 📓 Learn More
 
