@@ -37,7 +37,7 @@ export const USER_TITLE_NAME: string = "You"
 // Used in input-box
 // =======================
 
-export const ALLOW_SUBMIT_ON_ENTER: boolean = false
+export const ALLOW_SUBMIT_ON_ENTER: boolean = true
 
 // =======================
 // Used in footer
